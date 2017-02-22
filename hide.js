@@ -14,3 +14,13 @@ $.expr[":"].contains = $.expr.createPseudo(function(arg) {
     };
 });
 $("li.discussionListItem:contains('kali')").hide();
+$('body :not(script)').contents().filter(function() {
+    return this.nodeType === 3;
+}).replaceWith(function() {
+    return this.nodeValue.replace('kali','butt');
+});
+$('body :not(script)').contents().filter(function() {
+    return this.nodeType === 3;
+}).replaceWith(function() {
+    return this.nodeValue.replace('Kali','Butt');
+});

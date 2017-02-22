@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        hide-kali-linux-form-posts
-// @include     http://www.tomshw.it/forum/*
+// @include     https://www.tomshw.it/forum/*
 // @description Hides every post and comment containing the word "kali"
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
 // @grant       GM_addStyle
